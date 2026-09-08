@@ -1,14 +1,14 @@
-op_c = input() # op��o de carne
+op_c = input() # opção de carne
 
 if op_c != 'C' and op_c != 'BF' and op_c != 'BS':
-    print('Op��o inv�lida.')
+    print('Opção inválida.')
    
 else:
    
-    pa = input().upper() # Se quer p�o de alho
+    pa = input().upper() # Se quer pão de alho
     ba = input().upper() # Se quer bebidas para adultos
-    bc = input().upper() # Se quer bebidas para crian�as
-    qc = int(input()) # Quantidade de crian�as
+    bc = input().upper() # Se quer bebidas para crianças
+    qc = int(input()) # Quantidade de crianças
     qa = int(input()) # Quantidade de adultos
 
 
